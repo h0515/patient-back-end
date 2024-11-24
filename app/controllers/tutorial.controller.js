@@ -141,7 +141,7 @@ exports.deleteAll = (req, res) => {
 exports.findAllPublished = (req, res) => {
   Tutorial.findAll({ where: { published: true } })
     .then(data => {
-      res.send(data);
+      res.send({data:data, message: "success", status: 200, code: 200 });
     })
     .catch(err => {
       res.status(500).send({

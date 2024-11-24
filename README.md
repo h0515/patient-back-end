@@ -1,7 +1,11 @@
 # 操作表时，仿照tutorial中的操作： 
+
 # 1.在model中定义好表各个字段的数据类型 
+
 # 2.在controller中定义好增删改查的方法 
+
 # 3.最后在router中定义好路由 /api/sheetName/xxx（create、delete） 
+
 # 4.在serve.js中引入router
 
 # Node.js Rest APIs with Express, Sequelize & MySQL example
